@@ -13,10 +13,439 @@
    body {
             font-family: 'Roboto', sans-serif;
         }
+        <html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   AurialPadel
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
         .hero {
             background: url('https://placehold.co/1920x1080') no-repeat center center;
             background-size: cover;
         }
+  </style>
+ </head>
+ <body class="bg-gray-100 text-gray-800">
+  <!-- Header -->
+  <header class="fixed w-full bg-white shadow-md z-50">
+   <div class="container mx-auto flex justify-between items-center p-4">
+    <div class="text-2xl font-bold text-[#6bb3ef]">
+     AurialPadel
+    </div>
+    <nav class="space-x-4">
+     <a class="text-gray-700 hover:text-[#6bb3ef]" href="#inicio">
+      Inicio
+     </a>
+     <a class="text-gray-700 hover:text-[#6bb3ef]" href="#ranking">
+      Ranking
+     </a>
+     <a class="text-gray-700 hover:text-[#6bb3ef]" href="#medallas">
+      Medallas y Logros
+     </a>
+     <a class="text-gray-700 hover:text-[#6bb3ef]" href="#retos">
+      Retos
+     </a>
+     <a class="text-gray-700 hover:text-[#6bb3ef]" href="#feed">
+      Feed de Actividad
+     </a>
+     <a class="text-gray-700 hover:text-[#6bb3ef]" href="#tienda">
+      Tienda
+     </a>
+    </nav>
+   </div>
+  </header>
+  <!-- Hero Section -->
+  <section class="hero h-screen flex items-center justify-center text-center text-white" id="inicio">
+   <div>
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">
+     Conviértete en un profesional del pádel
+    </h1>
+    <button class="bg-[#6bb3ef] text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-[#5aa2d6] transition">
+     Únete Ahora
+    </button>
+   </div>
+  </section>
+  <!-- Ranking Section -->
+  <section class="py-16 bg-gray-200" id="ranking">
+   <div class="container mx-auto px-4 md:px-8 lg:px-16">
+    <h2 class="text-3xl font-bold text-center mb-8">
+     Ranking
+    </h2>
+    <div class="overflow-x-auto">
+     <table class="min-w-full bg-white rounded-lg shadow-lg">
+      <thead>
+       <tr>
+        <th class="py-2 px-4 bg-gray-100 border-b text-center">
+         Posición
+        </th>
+        <th class="py-2 px-4 bg-gray-100 border-b text-center">
+         Jugador
+        </th>
+        <th class="py-2 px-4 bg-gray-100 border-b text-center">
+         Puntos
+        </th>
+        <th class="py-2 px-4 bg-gray-100 border-b text-center">
+         Partidas Jugadas
+        </th>
+        <th class="py-2 px-4 bg-gray-100 border-b text-center">
+         Victorias
+        </th>
+        <th class="py-2 px-4 bg-gray-100 border-b text-center">
+         Recompensas de AurialCoins
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="py-2 px-4 border-b text-center">
+         1
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         Juan Pérez
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         1500
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         120
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         85
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         300
+        </td>
+       </tr>
+       <tr>
+        <td class="py-2 px-4 border-b text-center">
+         2
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         María López
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         1400
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         110
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         80
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         280
+        </td>
+       </tr>
+       <tr>
+        <td class="py-2 px-4 border-b text-center">
+         3
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         Carlos García
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         1300
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         100
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         75
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         250
+        </td>
+       </tr>
+       <tr>
+        <td class="py-2 px-4 border-b text-center">
+         4
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         Ana Martínez
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         1200
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         90
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         70
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         220
+        </td>
+       </tr>
+       <tr>
+        <td class="py-2 px-4 border-b text-center">
+         5
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         Luis Fernández
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         1100
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         80
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         65
+        </td>
+        <td class="py-2 px-4 border-b text-center">
+         200
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+     <div class="bg-white p-6 rounded-lg shadow-lg">
+      <h3 class="text-xl font-semibold mb-4">
+       Estadísticas
+      </h3>
+      <p>
+       Partidas jugadas: 120
+      </p>
+      <p>
+       Partidas ganadas: 85
+      </p>
+      <p>
+       Porcentaje de eficacia: 70%
+      </p>
+      <p>
+       Compañeros más frecuentes: Juan Pérez
+      </p>
+      <p>
+       Últimos resultados: G-G-P-G-P
+      </p>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-lg">
+      <h3 class="text-xl font-semibold mb-4">
+       Gráficos
+      </h3>
+      <div class="h-40 bg-gray-300 rounded-lg">
+      </div>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-lg">
+      <h3 class="text-xl font-semibold mb-4">
+       Más Información
+      </h3>
+      <p>
+       Detalles adicionales sobre el rendimiento y estadísticas del jugador.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Medallas y Logros Section -->
+  <section class="py-16 bg-white" id="medallas">
+   <div class="container mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-8">
+     Medallas y Logros
+    </h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+     <div class="text-center">
+      <img alt="Medalla por 50 partidas jugadas" class="mx-auto mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/d8tYFFae83XvSiKiBT5CoQIHqsKn2n3Zzr47xDebi8XzV55TA.jpg" width="100"/>
+      <p>
+       50 Partidas Jugadas
+      </p>
+     </div>
+     <div class="text-center">
+      <img alt="Medalla por 10 victorias consecutivas" class="mx-auto mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/3ZlKEoFSLtK4I9f3LbEezYOZPIpmwuP2GJfjripK9dBcryznA.jpg" width="100"/>
+      <p>
+       10 Victorias Consecutivas
+      </p>
+     </div>
+     <div class="text-center">
+      <img alt="Medalla por 100 partidas ganadas" class="mx-auto mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/9M9n9qwiae1cTCbRDVCV4gei7alunpzLMBiU2wgSdqdrV55TA.jpg" width="100"/>
+      <p>
+       100 Partidas Ganadas
+      </p>
+     </div>
+     <div class="text-center">
+      <img alt="Medalla por 200 partidas jugadas" class="mx-auto mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/bssY2B5Vu3bjMlY3thTm0eagmpaIeKB2geAq9buN8ZalryznA.jpg" width="100"/>
+      <p>
+       200 Partidas Jugadas
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Retos Section -->
+  <section class="py-16 bg-gray-200" id="retos">
+   <div class="container mx-auto px-4 md:px-8 lg:px-16">
+    <h2 class="text-3xl font-bold text-center mb-8">
+     Retos Semanales y Mensuales
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+     <div class="bg-white p-6 rounded-lg shadow-lg">
+      <h3 class="text-xl font-semibold mb-4">
+       Reto Semanal
+      </h3>
+      <p>
+       Juega 5 partidas esta semana
+      </p>
+      <div class="w-full bg-gray-300 rounded-full h-4 mb-4">
+       <div class="bg-[#6bb3ef] h-4 rounded-full" style="width: 60%">
+       </div>
+      </div>
+      <p>
+       60% completado
+      </p>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-lg">
+      <h3 class="text-xl font-semibold mb-4">
+       Reto Mensual
+      </h3>
+      <p>
+       Gana 20 partidas este mes
+      </p>
+      <div class="w-full bg-gray-300 rounded-full h-4 mb-4">
+       <div class="bg-[#6bb3ef] h-4 rounded-full" style="width: 40%">
+       </div>
+      </div>
+      <p>
+       40% completado
+      </p>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-lg">
+      <h3 class="text-xl font-semibold mb-4">
+       Reto Especial
+      </h3>
+      <p>
+       Participa en un torneo
+      </p>
+      <div class="w-full bg-gray-300 rounded-full h-4 mb-4">
+       <div class="bg-[#6bb3ef] h-4 rounded-full" style="width: 80%">
+       </div>
+      </div>
+      <p>
+       80% completado
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Feed de Actividad Section -->
+  <section class="py-16 bg-white" id="feed">
+   <div class="container mx-auto px-4 md:px-8 lg:px-16">
+    <h2 class="text-3xl font-bold text-center mb-8">
+     Feed de Actividad
+    </h2>
+    <div class="space-y-8">
+     <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+      <p>
+       <strong>
+        Juan Pérez
+       </strong>
+       jugó una partida contra
+       <strong>
+        María López
+       </strong>
+       y ganó.
+      </p>
+      <p class="text-sm text-gray-600">
+       Hace 2 horas
+      </p>
+     </div>
+     <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+      <p>
+       <strong>
+        María López
+       </strong>
+       desbloqueó la medalla
+       <strong>
+        10 Victorias Consecutivas
+       </strong>
+       .
+      </p>
+      <p class="text-sm text-gray-600">
+       Hace 5 horas
+      </p>
+     </div>
+     <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+      <p>
+       <strong>
+        Carlos García
+       </strong>
+       completó el reto
+       <strong>
+        Juega 5 partidas esta semana
+       </strong>
+       .
+      </p>
+      <p class="text-sm text-gray-600">
+       Hace 1 día
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Tienda Section -->
+  <section class="py-16 bg-gray-200" id="tienda">
+   <div class="container mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-8">
+     Tienda
+    </h2>
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+     <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+      <img alt="Pala de pádel de alta calidad" class="mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/HksAezflJVnRgUmxgkbeZPmgnpU3OEzaZXAXIOqsMq9eWlnPB.jpg" width="300"/>
+      <h3 class="text-xl font-semibold mb-2">
+       Pala de Pádel
+      </h3>
+      <p class="text-gray-600 mb-4">
+       Pala de alta calidad para jugadores profesionales.
+      </p>
+      <button class="bg-[#6bb3ef] text-white px-4 py-2 rounded-full hover:bg-[#5aa2d6] transition">
+       Comprar
+      </button>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+      <img alt="Camiseta deportiva de pádel" class="mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/F5LAZReettvyGUmZfRtX235p8Rm60SmMNxve4qR8snvAXlnPB.jpg" width="300"/>
+      <h3 class="text-xl font-semibold mb-2">
+       Camiseta Deportiva
+      </h3>
+      <p class="text-gray-600 mb-4">
+       Camiseta transpirable y cómoda para jugar al pádel.
+      </p>
+      <button class="bg-[#6bb3ef] text-white px-4 py-2 rounded-full hover:bg-[#5aa2d6] transition">
+       Comprar
+      </button>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+      <img alt="Accesorios de pádel" class="mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/JnUITGtE5YaCJd7Mp2oB0JFwlnwRfKY3EkeGyfimA2tZryznA.jpg" width="300"/>
+      <h3 class="text-xl font-semibold mb-2">
+       Accesorios
+      </h3>
+      <p class="text-gray-600 mb-4">
+       Accesorios esenciales para mejorar tu juego.
+      </p>
+      <button class="bg-[#6bb3ef] text-white px-4 py-2 rounded-full hover:bg-[#5aa2d6] transition">
+       Comprar
+      </button>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+   <div class="container mx-auto text-center">
+    <div class="mb-4">
+     <a class="text-[#6bb3ef] hover:text-[#5aa2d6] mx-2" href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a class="text-[#6bb3ef] hover:text-[#5aa2d6
   </style>
  </head>
  <body class="bg-gray-100 text-gray-800">
