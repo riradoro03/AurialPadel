@@ -17,41 +17,32 @@
             background: url('https://placehold.co/1920x1080') no-repeat center center;
             background-size: cover;
         }
-        .custom-color {
-            color: #6bb3ef;
-        }
-        .bg-custom-color {
-            background-color: #6bb3ef;
-        }
-        .hover-custom-color:hover {
-            background-color: #6bb3ef;
-        }
   </style>
  </head>
  <body class="bg-gray-100 text-gray-800">
   <!-- Header -->
   <header class="fixed w-full bg-white shadow-md z-50">
    <div class="container mx-auto flex justify-between items-center p-4">
-    <div class="text-2xl font-bold custom-color">
+    <div class="text-2xl font-bold text-[#6bb3ef]">
      AurialPadel
     </div>
     <nav class="space-x-4">
-     <a class="text-gray-700 hover:custom-color" href="#inicio">
+     <a class="text-gray-700 hover:text-[#6bb3ef]" href="#inicio">
       Inicio
      </a>
-     <a class="text-gray-700 hover:custom-color" href="#ranking">
+     <a class="text-gray-700 hover:text-[#6bb3ef]" href="#ranking">
       Ranking
      </a>
-     <a class="text-gray-700 hover:custom-color" href="#medallas">
+     <a class="text-gray-700 hover:text-[#6bb3ef]" href="#medallas">
       Medallas y Logros
      </a>
-     <a class="text-gray-700 hover:custom-color" href="#retos">
+     <a class="text-gray-700 hover:text-[#6bb3ef]" href="#retos">
       Retos
      </a>
-     <a class="text-gray-700 hover:custom-color" href="#feed">
+     <a class="text-gray-700 hover:text-[#6bb3ef]" href="#feed">
       Feed de Actividad
      </a>
-     <a class="text-gray-700 hover:custom-color" href="#tienda">
+     <a class="text-gray-700 hover:text-[#6bb3ef]" href="#tienda">
       Tienda
      </a>
     </nav>
@@ -63,7 +54,7 @@
     <h1 class="text-4xl md:text-6xl font-bold mb-4">
      Conviértete en un profesional del pádel
     </h1>
-    <button class="bg-custom-color text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-custom-color transition">
+    <button class="bg-[#6bb3ef] text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-[#6bb3ef] transition">
      Únete Ahora
     </button>
    </div>
@@ -162,7 +153,7 @@
        Juega 5 partidas esta semana
       </p>
       <div class="w-full bg-gray-300 rounded-full h-4 mb-4">
-       <div class="bg-custom-color h-4 rounded-full" style="width: 60%">
+       <div class="bg-[#6bb3ef] h-4 rounded-full" style="width: 60%">
        </div>
       </div>
       <p>
@@ -177,7 +168,7 @@
        Gana 20 partidas este mes
       </p>
       <div class="w-full bg-gray-300 rounded-full h-4 mb-4">
-       <div class="bg-custom-color h-4 rounded-full" style="width: 40%">
+       <div class="bg-[#6bb3ef] h-4 rounded-full" style="width: 40%">
        </div>
       </div>
       <p>
@@ -192,7 +183,7 @@
        Participa en un torneo
       </p>
       <div class="w-full bg-gray-300 rounded-full h-4 mb-4">
-       <div class="bg-custom-color h-4 rounded-full" style="width: 80%">
+       <div class="bg-[#6bb3ef] h-4 rounded-full" style="width: 80%">
        </div>
       </div>
       <p>
@@ -209,4 +200,130 @@
      Feed de Actividad
     </h2>
     <div class="space-y-8">
-     <div class="bg-gray-100 p-6 rounded-lg shadow-lg
+     <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+      <p>
+       <strong>
+        Juan Pérez
+       </strong>
+       jugó una partida contra
+       <strong>
+        María López
+</strong>
+       y ganó.
+      </p>
+      <p class="text-sm text-gray-600">
+       Hace 2 horas
+      </p>
+     </div>
+     <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+      <p>
+       <strong>
+        María López
+       </strong>
+       desbloqueó la medalla
+       <strong>
+        10 Victorias Consecutivas
+       </strong>
+       .
+      </p>
+      <p class="text-sm text-gray-600">
+       Hace 5 horas
+      </p>
+     </div>
+     <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+      <p>
+       <strong>
+        Carlos García
+       </strong>
+       completó el reto
+       <strong>
+        Juega 5 partidas esta semana
+       </strong>
+       .
+      </p>
+      <p class="text-sm text-gray-600">
+       Hace 1 día
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Tienda Section -->
+  <section class="py-16 bg-gray-200" id="tienda">
+   <div class="container mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-8">
+     Tienda
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+     <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+      <img alt="Pala de pádel de alta calidad" class="mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/HksAezflJVnRgUmxgkbeZPmgnpU3OEzaZXAXIOqsMq9eWlnPB.jpg" width="300"/>
+      <h3 class="text-xl font-semibold mb-2">
+       Pala de Pádel
+      </h3>
+      <p class="text-gray-600 mb-4">
+       Pala de alta calidad para jugadores profesionales.
+      </p>
+      <button class="bg-yellow-500 text-white px-4 py-2 rounded-full hover:bg-yellow-600 transition">
+       Comprar
+      </button>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+      <img alt="Camiseta deportiva de pádel" class="mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/F5LAZReettvyGUmZfRtX235p8Rm60SmMNxve4qR8snvAXlnPB.jpg" width="300"/>
+      <h3 class="text-xl font-semibold mb-2">
+       Camiseta Deportiva
+      </h3>
+      <p class="text-gray-600 mb-4">
+       Camiseta transpirable y cómoda para jugar al pádel.
+      </p>
+      <button class="bg-yellow-500 text-white px-4 py-2 rounded-full hover:bg-yellow-600 transition">
+       Comprar
+      </button>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+      <img alt="Accesorios de pádel" class="mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/JnUITGtE5YaCJd7Mp2oB0JFwlnwRfKY3EkeGyfimA2tZryznA.jpg" width="300"/>
+      <h3 class="text-xl font-semibold mb-2">
+       Accesorios
+      </h3>
+      <p class="text-gray-600 mb-4">
+       Accesorios esenciales para mejorar tu juego.
+      </p>
+      <button class="bg-yellow-500 text-white px-4 py-2 rounded-full hover:bg-yellow-600 transition">
+       Comprar
+      </button>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+   <div class="container mx-auto text-center">
+    <div class="mb-4">
+     <a class="text-yellow-500 hover:text-yellow-600 mx-2" href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a class="text-yellow-500 hover:text-yellow-600 mx-2" href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a class="text-yellow-500 hover:text-yellow-600 mx-2" href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+    </div>
+    <p class="mb-4">
+     Contacto: info@aurialpadel.com | Tel: +34 123 456 789
+    </p>
+    <form class="mb-4">
+     <input class="p-2 rounded-l-full" placeholder="Suscríbete a nuestro boletín" type="email"/>
+     <button class="bg-yellow-500 text-white px-4 py-2 rounded-r-full hover:bg-yellow-600 transition">
+      Suscribirse
+     </button>
+    </form>
+    <p>
+     © 2023 AurialPadel. Todos los derechos reservados.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>
